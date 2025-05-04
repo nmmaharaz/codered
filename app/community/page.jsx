@@ -16,7 +16,7 @@ const fetchAllGroupData = async () => {
 
     return await res.json();
   } catch (error) {
-    console.error("Error fetching group info:", error);
+    console.error("Error fetching groupdata info:", error);
     return null;
   }
 };
